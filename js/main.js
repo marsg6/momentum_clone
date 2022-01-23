@@ -69,7 +69,8 @@ function onInputKeyPressed(event) {
 input.addEventListener("keypress", onInputKeyPressed);
 
 function doesUserNameExist() {
-  return localStorage.getItem(storedUserNameKey) != "";
+  const userName = localStorage.getItem(storedUserNameKey);
+  return userName !== null && userName !== "";
 }
 
 if (doesUserNameExist()) {
