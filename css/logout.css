@@ -1,0 +1,21 @@
+.logout {
+  color: white;
+
+  font-weight: 700;
+
+  position: fixed;
+  top: 20px;
+  right: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  transition: transform 200ms;
+}
+
+.logout:hover {
+  transform: scale(110%);
+}

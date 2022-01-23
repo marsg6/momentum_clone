@@ -1,0 +1,32 @@
+.login__form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.login__text {
+  color: white;
+  font-size: 50px;
+}
+
+.login__form input {
+  border: none;
+  background: rgba(0, 0, 0, 0);
+  border-bottom: 2px solid white;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.login__form input:focus {
+  outline: none;
+}
+
+.login__form input::placeholder {
+  color: red;
+}

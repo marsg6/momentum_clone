@@ -1,0 +1,14 @@
+.post-login__clock {
+  display: flex;
+  align-items: flex-start;
+}
+
+.post-login__time {
+  font-size: 120px;
+}
+
+.post-login__time-extra {
+  font-size: 30px;
+  position: relative;
+  top: 10px;
+}

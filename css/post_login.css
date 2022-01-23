@@ -1,0 +1,23 @@
+@import "clock.css";
+@import "quote.css";
+@import "weather.css";
+
+.post-login__main {
+  color: white;
+}
+
+.post-login__center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-login__greeting {
+  font-size: 40px;
+  margin-top: 10px;
+}

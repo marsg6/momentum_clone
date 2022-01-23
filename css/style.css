@@ -1,0 +1,13 @@
+@import "reset.css";
+@import "common_style.css";
+@import "login.css";
+@import "post_login.css";
+@import "logout.css";
+
+body {
+  transition: background-color 500ms linear;
+}
+
+.hidden {
+  display: none;
+}
