@@ -84,7 +84,8 @@ if (doesUserNameExist()) {
 }
 
 function onLogoutClicked() {
-  localStorage.setItem(storedUserNameKey, "");
+  input.value = "";
+  localStorage.removeItem(storedUserNameKey);
   setElementVisibility(loginForm, true);
   setElementVisibility(postLoginMain, false);
 }
